@@ -23,6 +23,7 @@ export const INFO_SIMPSONS = {
     Los rasgos de carácter más prominentes y populares de Bart son su picardía,
     rebeldía y falta de respeto a la autoridad.`,
     image: BartImage,
+    color: "blue",
   },
   [NombresSimpsons.HOMER]: {
     id: NombresSimpsons.HOMER,
@@ -34,6 +35,7 @@ export const INFO_SIMPSONS = {
     es obeso, inmaduro, franco, agresivo, calvo, perezoso, ignorante,
     poco profesional y adicto a la cerveza, a la comida chatarra y a la televisión`,
     image: HomerImage,
+    color: "yellow",
   },
   [NombresSimpsons.LISA]: {
     id: NombresSimpsons.LISA,
@@ -45,6 +47,7 @@ export const INFO_SIMPSONS = {
     Lisa aboga por una variedad de causas políticas que generalmente la ponen
     contra la mayoría de la gente en Springfield.`,
     image: LisaImage,
+    color: "red",
   },
   [NombresSimpsons.MAGGIE]: {
     id: NombresSimpsons.MAGGIE,
@@ -53,6 +56,7 @@ export const INFO_SIMPSONS = {
     y Lisa. A menudo se la ve chupando su chupete rojo y, cuando camina,
     se tropieza con la ropa y se cae de cara. Al ser un bebé, aún no ha aprendido a hablar.`,
     image: MaggieImage,
+    color: "pink",
   },
   [NombresSimpsons.MARGE]: {
     id: NombresSimpsons.MARGE,
@@ -63,5 +67,6 @@ export const INFO_SIMPSONS = {
     mantener el orden en la casa Simpson. A menudo se la representa como la típica
     madre de televisión y a menudo se incluye en las listas de las mejores "mamá de televisión".`,
     image: MargeImage,
+    color: "green",
   },
 };
