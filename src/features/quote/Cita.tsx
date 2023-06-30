@@ -10,7 +10,7 @@ import {
 } from "./citaSlice";
 import { obtenerMensaje } from "./utils";
 
-function Cita() {
+export function Cita() {
   const [valorInput, setValorInput] = useState("");
   const { cita = "", personaje = "" } =
     useAppSelector(obtenerCitaDelEstado, shallowEqual) || {};
@@ -47,4 +47,3 @@ function Cita() {
     </ContenedorCita>
   );
 }
-export default Cita;

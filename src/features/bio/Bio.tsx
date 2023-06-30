@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NombresSimpsons, INFO_SIMPSONS } from "./constants";
 import { WrapperBio, WrapperButtons, BioImage, BioName, BioDescription, ButtonBioActive } from "./styledBio";
-import { log } from "console";
+
 
 const Bio = () => {
   const [bioActiva, setBioActiva] = useState(
@@ -17,9 +17,7 @@ const Bio = () => {
       onClick={() => onClick(nombre as NombresSimpsons)}
       isActive = {
         bioActiva.id === nombre
-      }
-      color = {bioActiva.color}
-      
+      }     
       >
         {nombre}
       </ButtonBioActive>

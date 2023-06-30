@@ -35,7 +35,7 @@ export const BioDescription = styled.p`
     margin: 1rem auto;
 `;
 
-export const ButtonBioActive = styled.button <{isActive : boolean, $color? : string}> `
+export const ButtonBioActive = styled.button <{isActive : boolean}> `
     border-radius: 5px;
     border: 1px solid darkgray;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -53,7 +53,7 @@ export const ButtonBioActive = styled.button <{isActive : boolean, $color? : str
         margin: 1rem;
         font-family: "Homer Simpson Revised", sans-serif;
         font-size: 1.4rem;
-        background-color: ${(props: { $color: any; }) => props.$color };
+        background-color: #fdd835;
         color: whitesmoke;
         text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000,
         -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000,
