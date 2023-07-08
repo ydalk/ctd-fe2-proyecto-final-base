@@ -26,6 +26,7 @@ const quoteRandom =
 
 export const handlers = [
     rest.get(API_URL, (req, res, ctx) => {
+        
         if (req.url.searchParams.get('character')) {
             return res(
                 ctx.status(200),
