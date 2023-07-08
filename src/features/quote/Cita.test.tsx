@@ -1,5 +1,5 @@
 
-import { fireEvent, screen, waitFor } from '@testing-library/react';
+import { fireEvent, screen} from '@testing-library/react';
 import { render } from "../../test-utils";
 import { Cita } from './Cita';
 import { server } from "../../mocks/server";
@@ -82,7 +82,7 @@ describe("Citas", ()=>{
             fireEvent.change(input, { target: { value: '0321654' } })
             const button = screen.getByRole('button', { name: 'Obtener Cita' });
             fireEvent.click(button);
-            expect( screen.findByText("Por favor ingrese un nombre válido")).toBeTruthy();
+            expect( await screen.findByText("Por favor ingrese un nombre válido")).toBeTruthy();
                        
         })
     });
